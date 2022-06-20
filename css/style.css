@@ -4,8 +4,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,regular&display=swap);
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap);
-
 @charset "UTF-8";
 
 * {
@@ -715,7 +713,6 @@ h2 {
 }
 
 .instructions-list p {
-  font-family: "Open Sans";
   font-weight: 300;
   font-size: 1.0625em;
   line-height: 1.4375em;
