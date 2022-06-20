@@ -382,6 +382,9 @@ h6 {
 }
 
 .list svg {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
   width: 37px;
   height: 37px;
 }
@@ -651,6 +654,10 @@ h2 {
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 450px;
+}
+
+.section-instructions__list {
+  margin: 10px 0 0 0;
 }
 
 .instructions-list {
