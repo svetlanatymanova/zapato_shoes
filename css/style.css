@@ -766,7 +766,7 @@ h2 {
 }
 
 .footer__link {
-  color: #4470ff;
+  color: rgb(255, 197, 213);
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
