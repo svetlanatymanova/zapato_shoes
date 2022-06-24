@@ -6,213 +6,34 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220621020314">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220624162918">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-	<svg width="0" height="0" style="position:absolute">
-		<symbol viewBox="0 0 37 36" fill="none" id="svg-mark">
-			<path fill="url(#apattern0)" d="M0 0H37V36H0z" />
-			<defs>
-				<pattern id="apattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-					<use xlink:href="#aimage0_2_350" transform="scale(.02703 .02778)" />
-				</pattern>
-				<image id="aimage0_2_350" width="37" height="36" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkCAMAAAA5HAOUAAAAjVBMVEUAAAD/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz/vLz1LBSjAAAALnRSTlMAkXUzIu64iAvAnpZ8Gcaro/nz597Vym9YPw+vqYNpZFIvKM6YjF1EOhPaSR6g+/TOGwAAAYJJREFUOMt1kwmSgkAMRcMqoIKioCKyuS/z73+8idBMN0zzqiw/6VcREiSVbD/L/TQ8GruapnhEDv4Id/LAltHyMSQiQQC3j2bXwaispj6Y0QZIxckP10WMwBhK673x6cKKD8Sv+xwjmzQEfLLo4pGjSTpWUtpxLLXShU9OXWykP2IuJHFT7qR07YfJ2ZvuJIcw00mG0om8GHhOSIYcHxBqpNlAoms/WsbTSmKiBxEPzvYjpUsX7Ve6JDoDjRy0Y/fSXBQX7Vp4+0tRsNaddpKd2GpH7kiL6q+2LFgKqMdseyWALV9FFmL+rAYPWxC5wINUbSC151W7h5KGWk4Scd/laNeWP1cvbSDhr+dav2z5iIH4YXPaioE7MRWwnpRMYNulRDTV8ATwFuvjeNNbvL5UfZXuOukIZTEU8tX+n+O5o/KWr43RPA7fYqFWspQrm0LxrByav/IcjJOX9dLL7PssBLN505gqQcs6jtGxykjDzYfECRqawDIDP9m+zq5xG/b5BR71OwGy4m9HAAAAAElFTkSuQmCC" />
-			</defs>
-		</symbol>
-		<symbol viewBox="0 0 24 24" fill="none" id="svg-offer">
-			<path fill="url(#bpattern0)" d="M0 0H24V24H0z" />
-			<defs>
-				<pattern id="bpattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-					<use xlink:href="#bimage0_2_348" transform="scale(.0303)" />
-				</pattern>
-				<image id="bimage0_2_348" width="33" height="33" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFyGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDUgNzkuMTY0NTkwLCAyMDIwLzEyLzA5LTExOjU3OjQ0ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjIuMSAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIxLTA3LTAyVDE2OjIwOjAzKzA1OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMi0wNi0xN1QxMzo0NToyNyswNTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMi0wNi0xN1QxMzo0NToyNyswNTowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDc5NmNmMjgtNGM2My1jMjRhLWI3MDAtNmE4ZDZiNDY3NWQzIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6YTczMjJmYmItNmU4OC1mYzQ5LWIxNjUtYjg3MjJkYzYzMzU1IiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6NDhkZWY5N2MtNmUzMS04NzRkLWFhZmEtOTY5Yzk0NzA4NzU4Ij4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0OGRlZjk3Yy02ZTMxLTg3NGQtYWFmYS05NjljOTQ3MDg3NTgiIHN0RXZ0OndoZW49IjIwMjEtMDctMDJUMTY6MjA6MDMrMDU6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMi4xIChXaW5kb3dzKSIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6NDc5NmNmMjgtNGM2My1jMjRhLWI3MDAtNmE4ZDZiNDY3NWQzIiBzdEV2dDp3aGVuPSIyMDIyLTA2LTE3VDEzOjQ1OjI3KzA1OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjIuMSAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+cxrlNwAAAx5JREFUWIW9mDtoVEEUhr/EG41EWWQhaVZQTEQJbGET8IUgmCBYKQiCiE20SWGxpSmSIqCgaOMDTWFjES1EQQUVUwQsLAwkjUaRKMgGY7KSh8YNx2LO9U4ucx+7m/jDMI87M/fMv+f8c+4iIohIj4hMSvWYFZGiiCyIyJCI5HTfVKVORLqBWxiMA+uBdaTDMrAEtGu/BGSAKWAfMJFqF+sE2UqsD5UBZaRdRDotdlrTrK8HmoGvwHTK07vwR2sPeA6cU0ZGgG1Ji+treLGNxlD/NnACc8A7SYs9rdP6QBLywLy2XwMfgMNAlhimvagHFWJO63uOZyVg8/8w4iGwC9ii/WWt92tdjl2tnvyxhsiIK8O6f6xuuJhoBXJVsDEDjIbGNkTM7cTo0StgPmyEB7zFhFc1aMMtUP57moAHQJf2x4GusBFl4AKwkyD206AB+AF8i3j+WeuXQAdwHaNNl4Cba+0Tb1SNW0Xkib7rrvV8VkTE5ROHgO3Ee7QH/ASeEeiCC3PARoxyNutYHmgBjmB+9vsuJhYkPY4nMDFkzS2IyGltF7V+LyJZFxMnMTH/K+aEjRgRehEzJwPs0XY/cFnbZzAq+gU4AEyvlU9kRGRM9+6zxnssBlr8cRcTZ4Hd2vaVz3W3zAGDGC8PMzCCyTH6gV4dL2CiwWeg+G9FiAmvRp/IWgxcs8YLOjYpDvV06UQeo5hLjtPbWALeWf0mTLT4WVaH7nNUGfgE7F3BQAQTtRTf8wests/qmO0D4VInIqJW7lC7+jA+EaeYDRiduIKRXoBh4CBQp/2nBPIcJeeRTPgxnAbHLF8QXdstwe3pj8Xmr67oyANbgcUYJjyMUvqnO6V1M0HmPoiJghxGNWM3C6OIy3mSUcLcwI8wP8UERszakhauVmZ1A3hMcFv62JRm8Wpl22WHAalRKRM54CrBjWhjCjhPFd8vvhHLsbMCZDHfE1Eo1GJEWoxiNCLDynzDwzhmOAf5neY9HobGHAkfKBbKKed5BAnzTNLEi5jY/k7lX+VRWFQDMpg8ohQ7W4J7vpb/J1woikhvnFL65S9a6dmCHA6mWQAAAABJRU5ErkJggg==" />
-			</defs>
-		</symbol>
-		<symbol viewBox="0 0 23 23" fill="none" id="svg-phone">
-			<path fill="url(#cpattern0)" d="M0 0H23V23H0z" />
-			<defs>
-				<pattern id="cpattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-					<use xlink:href="#cimage0_2_349" transform="scale(.03125)" />
-				</pattern>
-				<image id="cimage0_2_349" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFyGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDUgNzkuMTY0NTkwLCAyMDIwLzEyLzA5LTExOjU3OjQ0ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjIuMSAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIxLTA3LTAyVDE2OjIwOjAzKzA1OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMi0wNi0xN1QxMzo0NToxMCswNTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMi0wNi0xN1QxMzo0NToxMCswNTowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6YjYzNDAwZmQtMTM0MC0yNjRhLThkMzktN2ZkOGZmNjJmOTcyIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6ODgzYzRhMDEtMzljYS0zZjQzLTkzZTMtYmQ0MTY2ZmQ3NGNiIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6MjkwMzRjN2MtMzg5YS1iYTRhLWJiYTUtZTgyNWEzMjk4NzlkIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDoyOTAzNGM3Yy0zODlhLWJhNGEtYmJhNS1lODI1YTMyOTg3OWQiIHN0RXZ0OndoZW49IjIwMjEtMDctMDJUMTY6MjA6MDMrMDU6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMi4xIChXaW5kb3dzKSIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6YjYzNDAwZmQtMTM0MC0yNjRhLThkMzktN2ZkOGZmNjJmOTcyIiBzdEV2dDp3aGVuPSIyMDIyLTA2LTE3VDEzOjQ1OjEwKzA1OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjIuMSAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+sRytkQAAAflJREFUWIW9lqFuG0EQhv+UxcjAIMTIUpQH6DOkqLiggQFGUUqNDMoNwvIGlUmVgJKowCzQzFISEulQpBAXRAr4AnZGt9mu7XO89kiru5uZvfnudmd2BCgZPWBCkDHQyvgUG6niCHiy4Hd2nQHtXQD0gLkFPTbdeQSzFQi/aQH31DKMnBzifhsQfnNpQU6j+1EGovhyCOjay6eR4U8G4sx0k9IAA3vxcWLMQVyb7qAkgKdcLt0cYgh0qDOj2DKIsPOrJU5jC/ps137pJQC4XeHoMigZ3AGeCcVnkdMPC/6zdHAHuLEAi0puBbxsIzigT5KuFOSr8rIv6XWBbXMh7GgIlS5HOTJ70c0XL4FsfeF9CfbRBh7N/n1bACJUQgjlOHXsUp+SRSHih070pTuDSBUHhF2/M4icsjRE2+Y0BnCIEstxTi03ZM6QZeSb/gk/ZafU58l/ndWq37cORGz3tI4rqP+NdxBNNkoTCLfPLWgsw2UQTXfrKogOoWJW9vIzA/ttc0YZiBnQWidlVkEsGrnOyiHG6wCUhqhYM3gpiAGh/wSYfARgEwhv+SFkT/ejAClE01atb/5z4BCaZ8EyCD9FZ4SC1E58WsA3Qt/pfj23bwrgwwuPS2UBHxP9BUnrtweUaq46kk4kfZH02Z7/SbqV9FfSL0kP6aQ36xn2tZpTMvoAAAAASUVORK5CYII=" />
-			</defs>
-		</symbol>
-		<symbol fill="none" viewBox="0 0 15 13" id="tg" xmlns="http://www.w3.org/2000/svg">
-			<path fill-rule="evenodd" clip-rule="evenodd" d="M12.004 12.033a1 1 0 01-1.78.53c-1.09-.868-2.79-2.116-2.79-2.116s-1.23 2.167-1.45 2.39a.682.682 0 01-1-.134.863.863 0 00-.04-.1l.69-3.452 4.92-4.833-6.71 3.83S.814 7.24.364 7.063a.7.7 0 01.07-1.262c.64-.326 11.93-4.638 12.31-4.749.38-.11 1.38-.4 1.27.573-.11.973-1.9 9.873-2.01 10.407z" fill="#fff" />
-		</symbol>
-		<symbol id="phone" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 53.942 53.942" style="enable-background:new 0 0 53.942 53.942;" xml:space="preserve">
-			<g>
-				<path d="M29.977,24.922c0.256,0,0.512-0.098,0.707-0.293L45.977,9.336v9.586c0,0.553,0.448,1,1,1s1-0.447,1-1v-12
-		c0-0.13-0.027-0.26-0.077-0.382c-0.101-0.245-0.296-0.44-0.541-0.541c-0.133-0.055-0.273-0.075-0.415-0.071
-		c-0.011,0-0.02-0.006-0.032-0.006h-12c-0.552,0-1,0.447-1,1s0.448,1,1,1h9.65L29.27,23.215c-0.391,0.391-0.391,1.023,0,1.414
-		C29.465,24.825,29.721,24.922,29.977,24.922z" />
-				<path d="M53.364,40.912c-2.008-3.795-8.981-7.912-9.288-8.092c-1.276-0.728-2.597-0.958-3.721-0.646
-		c-0.844,0.234-1.532,0.768-1.996,1.546c-1.02,1.22-2.286,2.646-2.592,2.867c-2.368,1.604-4.25,1.415-6.294-0.629L17.987,24.472
-		c-2.045-2.045-2.233-3.928-0.631-6.291c0.224-0.31,1.65-1.575,2.87-2.596c0.778-0.464,1.312-1.152,1.546-1.996
-		c0.311-1.123,0.082-2.444-0.652-3.731c-0.173-0.296-4.291-7.27-8.085-9.277c-1.926-1.019-4.254-0.669-5.796,0.872L4.7,3.99
-		c-4.014,4.014-5.467,8.563-4.321,13.52c0.956,4.132,3.742,8.529,8.282,13.068l14.705,14.706c5.762,5.762,11.258,8.656,16.298,8.656
-		c3.701,0,7.157-1.562,10.291-4.695l2.537-2.537C54.033,45.167,54.383,42.837,53.364,40.912z M51.078,45.293l-2.537,2.537
-		c-6.568,6.567-14.563,5.235-23.76-3.961L10.075,29.164c-4.271-4.271-6.877-8.344-7.747-12.104
-		C1.334,12.758,2.572,8.947,6.114,5.404l2.537-2.537c0.567-0.566,1.313-0.862,2.07-0.862c0.467,0,0.939,0.112,1.376,0.344
-		c3.293,1.743,7.256,8.454,7.29,8.511c0.449,0.787,0.62,1.608,0.457,2.196c-0.1,0.36-0.324,0.634-0.684,0.836l-0.15,0.104
-		c-0.853,0.712-2.883,2.434-3.308,3.061c-0.612,0.904-1.018,1.792-1.231,2.665c-0.711-1.418-1.286-3.06-1.475-4.881
-		c-0.057-0.548-0.545-0.935-1.098-0.892c-0.549,0.058-0.949,0.549-0.892,1.099c0.722,6.953,6.129,11.479,6.359,11.668
-		c0.025,0.02,0.054,0.028,0.08,0.045l10.613,10.613c0.045,0.045,0.092,0.085,0.137,0.129c0.035,0.051,0.058,0.108,0.104,0.154
-		c0.189,0.187,4.704,4.567,11.599,5.283c0.035,0.003,0.07,0.005,0.104,0.005c0.506,0,0.94-0.383,0.994-0.896
-		c0.057-0.55-0.342-1.041-0.892-1.099c-2.114-0.219-3.987-0.839-5.548-1.558c0.765-0.23,1.543-0.612,2.332-1.146
-		c0.628-0.426,2.35-2.455,3.061-3.308l0.104-0.151c0.202-0.359,0.476-0.583,0.836-0.684c0.589-0.159,1.409,0.008,2.186,0.45
-		c0.067,0.04,6.778,4.003,8.521,7.296C52.202,42.993,51.994,44.377,51.078,45.293z" />
-			</g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-		</symbol>
-
-	</svg>
-
 	<div class="wrapper">
 		<header class="header">
 			<div class="header__container">
 				<a href="#" class="header__logo logo">zapato shoes</a>
+				<a href="https://t.me/zapato_uz" class="header__link">
+					<img src="img/icons/icons.svg#tg" alt="tg">
+				</a>
 			</div>
 		</header>
 		<main class="main">
-			<section class="main__primary-product primary-product">
-				<div class="primary-product__head primary-product-head">
-					<div class="primary-product-head__container">
-						<h2>QULAY SHIPPAKLAR</h2>
-					</div>
-				</div>
-				<!-- Оболочка слайдера -->
-				<div class="primary-product__slider swiper">
-					<!-- Двигающееся часть слайдера -->
-					<div class="primary-product__wrapper swiper-wrapper">
-						<!-- Слайд -->
-						<div class="primary-product__slide swiper-slide">
-							<picture><source srcset="img/slider-img1.webp" type="image/webp"><img src="img/slider-img1.jpg" alt="slider-img"></picture>
-						</div>
-						<div class="primary-product__slide swiper-slide">
-							<picture><source srcset="img/slider-img1.webp" type="image/webp"><img src="img/slider-img1.jpg" alt="slider-img"></picture>
-						</div>
-						<div class="primary-product__slide swiper-slide">
-							<picture><source srcset="img/slider-img1.webp" type="image/webp"><img src="img/slider-img1.jpg" alt="slider-img"></picture>
-						</div>
-					</div>
-
-					<div class="swiper-pagination"></div>
-					<div class="swiper-pagination"></div>
-
-				</div>
-
-				<div class="primary-product__sum sum">
-					<div class="sum__container">
-						<div class="sum-content">
-							<div class="sum-content__title">Eski narhi:</div>
-							<div class="sum-content__subtitle sum-content__subtitle-line">350.000sum</div>
-						</div>
-						<div class="sum-content sum-content-pink">
-							<div class="sum-content__title">Chegirmali narh:</div>
-							<div class="sum-content__subtitle">350.000sum</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<div class="main__desc desc">
-				<ul class="desc__container list">
-					<li>
-						<svg>
-							<use href="#svg-mark"></use>
-						</svg>
-						<p>Toshkent shahriga buyurtma berilgan kun yetkazib berish</p>
-					</li>
-					<li>
-						<svg>
-							<use href="#svg-mark"></use>
-						</svg>
-						<p>Viloyatlarga 2-4 ish kunida yetkazib berish</p>
-					</li>
-					<li>
-						<svg>
-							<use href="#svg-mark"></use>
-						</svg>
-						<p>To’g’ri o’lchamda harid amalga oshirish uchun 2 donaga buyurtma bering</p>
-					</li>
-					<li>
-						<svg>
-							<use href="#svg-mark"></use>
-						</svg>
-						<p>Oldindan to’lovsiz. To’lov naqd pul hamda Click, payme orqali</p>
-					</li>
-				</ul>
-				<div class="desc__container">
-					<form action="#" class="desc__form form">
-						<input type="text" class="form__input" placeholder="Ismingizni yozing">
-						<input type="text" class="form__input" placeholder="Tel raqamingizni yozing">
-						<button type="submit" class="form__button button-red">BUYURTMA BERISH</button>
-					</form>
-				</div>
-			</div>
-			<section class="main__section-properties section-properties">
-				<div class="section-properties__container">
-					<h2 class="section-properties__title">GARDEROBINGIZGA KO’RKAMLIK QO’SHING</h2>
-					<p class="section-properties__p">
-						Ushbu slipperlar orqali yozni jaziramasida oyoqlaringizga sokinlik hadiya eting. Nafas oluvchi
-						matoda tikilgan ushbu slipperlar rang barang ranglari orqali stilingizga yanada qo’shimchi
-						chiroy
-						olib kelar.
-					</p>
-				</div>
-				<div class="section-properties__table table">
-					<div class="stroke">
-						<div class="stroke__container">
-							<div class="stroke__key">Tarkibi:</div>
-							<div class="stroke__value">Tekstil polimer</div>
-						</div>
-					</div>
-					<div class="stroke">
-						<div class="stroke__container">
-							<div class="stroke__key">Ishlab chiqaruvchi:</div>
-							<div class="stroke__value">Turkia</div>
-						</div>
-					</div>
-					<div class="stroke">
-						<div class="stroke__container">
-							<div class="stroke__key">O’chamlar:</div>
-							<div class="stroke__value">36-42</div>
-						</div>
-					</div>
-					<div class="stroke">
-						<div class="stroke__container">
-							<div class="stroke__key">Ranglar:</div>
-							<div class="stroke__value">Pushti, yashil, qaymoq</div>
-						</div>
-					</div>
-				</div>
-			</section>
 			<section class="main__section-catalog section-catalog">
 				<div class="section-catalog__container">
-					<h2 class="section-catalog__title">KATALOG</h2>
+					<h2 class="section-catalog__title main-title">Sifatli va hamyonbop oyoq kiyimlar
+						<span>O’zbekistion</span> bo’ylab bepul yetkazib besh bilan
+					</h2>
 					<div class="section-catalog__items">
 						<div class="section-catalog__item item">
 							<div class="item-bg__slider swiper">
 								<div class="item-bg__wrapper swiper-wrapper">
 									<div class="item-bg__slide swiper-slide">
-										<picture><source srcset="img/slider-img2.webp" type="image/webp"><img src="img/slider-img2.jpg" alt="img"></picture>
+										<picture><source srcset="img/slider-img.webp" type="image/webp"><img src="img/slider-img.jpg" alt="img"></picture>
 									</div>
 									<div class="item-bg__slide swiper-slide">
 										<picture><source srcset="img/slider-img2.webp" type="image/webp"><img src="img/slider-img2.jpg" alt="img"></picture>
@@ -222,14 +43,14 @@
 							</div>
 							<div class="item__content">
 								<div class="item__container">
-									<div class="item__title">Yashil rangli slipperlar</div>
+									<div class="item__title">Item1</div>
 									<div class="item__sum sum">
 										<div class="sum-content">
-											<div class="sum-content__subtitle sum-content__subtitle-line">350.000sum
+											<div class="sum-content__subtitle sum-content__subtitle-line">10.000sum
 											</div>
 										</div>
 										<div class="sum-content sum-content">
-											<div class="sum-content__subtitle sum-content__subtitle-bold">350.000sum
+											<div class="sum-content__subtitle sum-content__subtitle-bold">9.000sum
 											</div>
 										</div>
 									</div>
@@ -244,21 +65,24 @@
 										<picture><source srcset="img/slider-img2.webp" type="image/webp"><img src="img/slider-img2.jpg" alt="img"></picture>
 									</div>
 									<div class="item-bg__slide swiper-slide">
-										<picture><source srcset="img/slider-img3.webp" type="image/webp"><img src="img/slider-img3.jpg" alt="img"></picture>
+										<picture><source srcset="img/slider-img2.webp" type="image/webp"><img src="img/slider-img2.jpg" alt="img"></picture>
+									</div>
+									<div class="item-bg__slide swiper-slide">
+										<picture><source srcset="img/slider-img2.webp" type="image/webp"><img src="img/slider-img2.jpg" alt="img"></picture>
 									</div>
 								</div>
 								<div class="swiper-pagination"></div>
 							</div>
 							<div class="item__content">
 								<div class="item__container">
-									<div class="item__title">Yashil rangli slipperlar</div>
+									<div class="item__title">Item2r</div>
 									<div class="item__sum sum">
 										<div class="sum-content">
-											<div class="sum-content__subtitle sum-content__subtitle-line">350.000sum
+											<div class="sum-content__subtitle sum-content__subtitle-line">60.000sum
 											</div>
 										</div>
 										<div class="sum-content sum-content">
-											<div class="sum-content__subtitle sum-content__subtitle-bold">350.000sum
+											<div class="sum-content__subtitle sum-content__subtitle-bold">56.000sum
 											</div>
 										</div>
 									</div>
@@ -266,137 +90,99 @@
 								</div>
 							</div>
 						</div>
+						<div class="section-catalog__item item">
+							<div class="item-bg__slider swiper">
+								<div class="item-bg__wrapper swiper-wrapper">
+									<div class="item-bg__slide swiper-slide">
+										<picture><source srcset="img/slider-img1.webp" type="image/webp"><img src="img/slider-img1.jpg" alt="img"></picture>
+									</div>
+									<div class="item-bg__slide swiper-slide">
+										<picture><source srcset="img/slider-img2.webp" type="image/webp"><img src="img/slider-img2.jpg" alt="img"></picture>
+									</div>
 
-					</div>
-				</div>
-
-			</section>
-			<section class="main__section-reviews section-reviews">
-				<div class="section-reviews__container">
-					<h2 class="section-reviews__title title">MIJOZLARIMIZ FIKR VA MULOHAZALARI</h2>
-					<!-- Оболочка слайдера -->
-					<div class="section-reviews__slider swiper">
-						<!-- Двигающееся часть слайдера -->
-						<div class="section-reviews__wrapper swiper-wrapper">
-							<!-- Слайд -->
-							<div class="section-reviews__slide swiper-slide">
-								<picture><source srcset="img/screen.webp" type="image/webp"><img src="img/screen.jpg" alt="screen"></picture>
+								</div>
+								<div class="swiper-pagination"></div>
 							</div>
-							<div class="section-reviews__slide swiper-slide">
-								<picture><source srcset="img/screen.webp" type="image/webp"><img src="img/screen.jpg" alt="screen"></picture>
-							</div>
-							<div class="section-reviews__slide swiper-slide">
-								<picture><source srcset="img/screen.webp" type="image/webp"><img src="img/screen.jpg" alt="screen"></picture>
+							<div class="item__content">
+								<div class="item__container">
+									<div class="item__title">Item3</div>
+									<div class="item__sum sum">
+										<div class="sum-content">
+											<div class="sum-content__subtitle sum-content__subtitle-line">950.000sum
+											</div>
+										</div>
+										<div class="sum-content sum-content">
+											<div class="sum-content__subtitle sum-content__subtitle-bold">450.000sum
+											</div>
+										</div>
+									</div>
+									<a href="#" class="item__button button-red">BUYURTMA BERISH</a>
+								</div>
 							</div>
 						</div>
-						<div class="swiper-pagination"></div>
-					</div>
-				</div>
-			</section>
-			<section class="main__section-instructions section-instructions">
-				<div class="section-instructions__container">
-					<h2 class="section-instructions__title">BUYURTMA BERISH USLUBI</h2>
-					<ul class="section-instructions__list instructions-list">
-						<li>
-							<div class="instructions-list__icon">
-								<svg>
-									<use href="#svg-offer"></use>
-								</svg>
+						<div class="section-catalog__item item">
+							<div class="item-bg__slider swiper">
+								<div class="item-bg__wrapper swiper-wrapper">
+									<div class="item-bg__slide swiper-slide">
+										<picture><source srcset="img/slider-img3.webp" type="image/webp"><img src="img/slider-img3.jpg" alt="img"></picture>
+									</div>
+									<div class="item-bg__slide swiper-slide">
+										<picture><source srcset="img/slider-img2.webp" type="image/webp"><img src="img/slider-img2.jpg" alt="img"></picture>
+									</div>
+									<div class="item-bg__slide swiper-slide">
+										<picture><source srcset="img/slider-img2.webp" type="image/webp"><img src="img/slider-img2.jpg" alt="img"></picture>
+									</div>
+									<div class="item-bg__slide swiper-slide">
+										<picture><source srcset="img/slider-img2.webp" type="image/webp"><img src="img/slider-img2.jpg" alt="img"></picture>
+									</div>
+								</div>
+								<div class="swiper-pagination"></div>
 							</div>
-							<p>Buyurtma berish uchun pastdagi formaga ismingiz va telefon raqamingizni yozib “BUYURTMA
-								BERISH” tugmasiga bosing.</p>
-						</li>
-						<li>
-							<div class="instructions-list__icon">
-								<svg>
-									<use href="#svg-phone"></use>
-								</svg>
+							<div class="item__content">
+								<div class="item__container">
+									<div class="item__title">Lorem</div>
+									<div class="item__sum sum">
+										<div class="sum-content">
+											<div class="sum-content__subtitle sum-content__subtitle-line">3500.000sum
+											</div>
+										</div>
+										<div class="sum-content sum-content">
+											<div class="sum-content__subtitle sum-content__subtitle-bold">1500.000sum
+											</div>
+										</div>
+									</div>
+									<a href="#" class="item__button button-red">BUYURTMA BERISH</a>
+								</div>
 							</div>
-
-							<p>Operatorimiz Siz bilan 15 daqiqa ichida aloqaga chiqib o’lcham hamda ranglarni
-								aniqlashtirib
-								buyurtmangizni qabul qiladi</p>
-						</li>
-
-					</ul>
-				</div>
-			</section>
-			<section class="main__primary-product primary-product">
-				<div class="primary-product__head primary-product-head">
-					<div class="primary-product-head__container">
-						<h2>QULAY SHIPPAKLAR</h2>
-					</div>
-				</div>
-				<!-- Оболочка слайдера -->
-				<div class="primary-product__slider swiper">
-					<!-- Двигающееся часть слайдера -->
-					<div class="primary-product__wrapper swiper-wrapper">
-						<!-- Слайд -->
-						<div class="primary-product__slide swiper-slide">
-							<picture><source srcset="img/slider-img1.webp" type="image/webp"><img src="img/slider-img1.jpg" alt="slider-img"></picture>
-						</div>
-						<div class="primary-product__slide swiper-slide">
-							<picture><source srcset="img/slider-img1.webp" type="image/webp"><img src="img/slider-img1.jpg" alt="slider-img"></picture>
-						</div>
-						<div class="primary-product__slide swiper-slide">
-							<picture><source srcset="img/slider-img1.webp" type="image/webp"><img src="img/slider-img1.jpg" alt="slider-img"></picture>
-						</div>
-					</div>
-
-					<div class="swiper-pagination"></div>
-					<div class="swiper-pagination"></div>
-
-				</div>
-
-				<div class="primary-product__sum sum">
-					<div class="sum__container">
-						<div class="sum-content">
-							<div class="sum-content__title">Eski narhi:</div>
-							<div class="sum-content__subtitle sum-content__subtitle-line">350.000sum</div>
-						</div>
-						<div class="sum-content sum-content-pink">
-							<div class="sum-content__title">Chegirmali narh:</div>
-							<div class="sum-content__subtitle">350.000sum</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<div class="main__desc desc">
-				<ul class="desc__container list">
-					<li>
-						<svg>
-							<use href="#svg-mark"></use>
-						</svg>
-						<p>Toshkent shahriga buyurtma berilgan kun yetkazib berish</p>
-					</li>
-					<li>
-						<svg>
-							<use href="#svg-mark"></use>
-						</svg>
-						<p>Viloyatlarga 2-4 ish kunida yetkazib berish</p>
-					</li>
-					<li>
-						<svg>
-							<use href="#svg-mark"></use>
-						</svg>
-						<p>To’g’ri o’lchamda harid amalga oshirish uchun 2 donaga buyurtma bering</p>
-					</li>
-					<li>
-						<svg>
-							<use href="#svg-mark"></use>
-						</svg>
-						<p>Oldindan to’lovsiz. To’lov naqd pul hamda Click, payme orqali</p>
-					</li>
-				</ul>
-				<div class="desc__container">
-					<form action="#" class="desc__form form">
-						<input type="text" class="form__input" placeholder="Ismingizni yozing">
-						<input type="text" class="form__input" placeholder="Tel raqamingizni yozing">
-						<button type="submit" class="form__button button-red">BUYURTMA BERISH</button>
-					</form>
-				</div>
-			</div>
+			<section class="main__section-pluses section-pluses">
+				<div class="section-pluses__container">
+					<div class="section-pluses__column pluses-column">
+						<div class="pluses-column__pluses pluses">
+							<div class="pluses__icon">
+								<img src="img/icons/icons.svg#pay" alt="pay">
+							</div>
+							<h4 class="pluses__title">Oldindan to’lovsiz</h4>
+						</div>
+						<div class="pluses-column__pluses pluses">
+							<div class="pluses__icon">
+								<img src="img/icons/icons.svg#ship" alt="ship">
+							</div>
+							<h4 class="pluses__title">Bepul yetkazib berish</h4>
+						</div>
+						<div class="pluses-column__pluses pluses">
+							<div class="pluses__icon">
+								<img src="img/icons/icons.svg#phone" alt="phone">
 
+							</div>
+							<h4 class="pluses__title">Kerakli o’lchamlar</h4>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
@@ -408,42 +194,36 @@
 					<div class="conn__title">Savollaringiz bormi?</div>
 					<ul class="conn__list">
 						<li>
-
 							<a class="footer__link" href="tel:+998901234567">
 								<span class="footer__icon footer__icon-green">
-									<svg>
-										<use href="#phone"></use>
-									</svg>
+									<img src="img/icons/icons.svg#phone" alt="phone">
 								</span>
 								<p>tel: +99890 123 45 67</p>
 							</a>
 						</li>
 						<li><a class="footer__link" href="https://t.me/zapato_uz">
 								<span class="footer__icon">
-									<svg>
-										<use href="#tg"></use>
-									</svg>
+									<img src="img/icons/icons.svg#tg" alt="tg">
 								</span>
 								<p>telegram: zapato_admin</p>
 							</a></li>
 						<li>e-mail: help@zapato.uz</li>
 					</ul>
 				</div>
-				<ul class="footer__list footer__list-big">
-					<li>OOO “ZAPATO-SHOES”</li>
-					<li>INN: 305 298 521</li>
-				</ul>
-				<ul class="footer__list">
-					<li><a class="footer__link" href="#">SHAHSIY MA’LUMOTLAR SIYOSATI</a></li>
-					<li><a class="footer__link" href="#">OMMAVIY OFERTA</a></li>
-				</ul>
-
-
+				<div class="footer__lists">
+					<ul class="footer__list footer__list-big">
+						<li>OOO “ZAPATO-SHOES”</li>
+						<li>INN: 305 298 521</li>
+					</ul>
+					<ul class="footer__list">
+						<li><a class="footer__link" href="#">SHAHSIY MA’LUMOTLAR SIYOSATI</a></li>
+						<li><a class="footer__link" href="#">OMMAVIY OFERTA</a></li>
+					</ul>
+				</div>
 			</div>
 		</footer>
 	</div>
-
-	<script src="js/app.min.js?_v=20220621020314"></script>
+	<script src="js/app.min.js?_v=20220624162918"></script>
 </body>
 
 </html>
