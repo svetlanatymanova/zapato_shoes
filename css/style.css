@@ -237,7 +237,7 @@ h4 {
 
 @supports not (font-size: clamp( 1.75rem , 1.3763736264rem  +  1.8681318681vw , 2.8125rem )) {
   .section-thanks__title {
-    font-size: calc(1.75rem + 1.0625 * (100vw - 20rem) / 56.875);
+    font-size: calc(1.75rem + 1 * (100vw - 20rem) / 53.5294117647);
   }
 }
 
@@ -253,7 +253,7 @@ h4 {
 
 @supports not (font-size: clamp( 1.75rem , 1.706043956rem  +  0.2197802198vw , 1.875rem )) {
   .section-thanks__subtitle {
-    font-size: calc(1.75rem + 0.125 * (100vw - 20rem) / 56.875);
+    font-size: calc(1.75rem + 0.1176470588 * (100vw - 20rem) / 53.5294117647);
   }
 }
 
@@ -294,7 +294,7 @@ h4 {
 
 @supports not (width: clamp( 3.9375rem , 3.1243131868rem  +  4.0659340659vw , 6.25rem )) {
   .section-thanks__link svg {
-    width: calc(3.9375rem + 2.3125 * (100vw - 20rem) / 56.875);
+    width: calc(3.9375rem + 2.1764705882 * (100vw - 20rem) / 53.5294117647);
   }
 }
 
@@ -306,7 +306,7 @@ h4 {
 
 @supports not (height: clamp( 3.9375rem , 3.1243131868rem  +  4.0659340659vw , 6.25rem )) {
   .section-thanks__link svg {
-    height: calc(3.9375rem + 2.3125 * (100vw - 20rem) / 56.875);
+    height: calc(3.9375rem + 2.1764705882 * (100vw - 20rem) / 53.5294117647);
   }
 }
 
@@ -388,7 +388,7 @@ h3 {
 
 @supports not (font-size: clamp( 1.5rem , 1.3681318681rem  +  0.6593406593vw , 1.875rem )) {
   .logo {
-    font-size: calc(1.5rem + 0.375 * (100vw - 20rem) / 56.875);
+    font-size: calc(1.5rem + 0.3529411765 * (100vw - 20rem) / 53.5294117647);
   }
 }
 
@@ -400,7 +400,7 @@ h3 {
 
 @supports not (line-height: clamp( 1.8125rem , 1.6806318681rem  +  0.6593406593vw , 2.1875rem )) {
   .logo {
-    line-height: calc(1.8125rem + 0.375 * (100vw - 20rem) / 56.875);
+    line-height: calc(1.8125rem + 0.3529411765 * (100vw - 20rem) / 53.5294117647);
   }
 }
 
@@ -513,6 +513,10 @@ h3 {
       flex-wrap: nowrap;
 }
 
+.sum-content {
+  font-size: 20px;
+}
+
 .sum-content__title {
   font-family: "Montserrat";
   font-weight: 400;
@@ -528,18 +532,6 @@ h3 {
   text-align: center;
 }
 
-@supports (font-size: clamp( 1.1875rem , 1.3168103448rem  +  -0.1077586207vw , 1.25rem )) {
-  .sum-content__subtitle {
-    font-size: clamp( 1.1875rem , 1.3168103448rem  +  -0.1077586207vw , 1.25rem );
-  }
-}
-
-@supports not (font-size: clamp( 1.1875rem , 1.3168103448rem  +  -0.1077586207vw , 1.25rem )) {
-  .sum-content__subtitle {
-    font-size: calc(1.25rem + -0.0625 * (100vw - 62rem) / 58);
-  }
-}
-
 @supports (font-size: clamp( 1.5rem , 1.8583815029rem  +  -0.5780346821vw , 1.75rem )) {
   .sum-content__subtitle {
     font-size: clamp( 1.5rem , 1.8583815029rem  +  -0.5780346821vw , 1.75rem );
@@ -548,7 +540,7 @@ h3 {
 
 @supports not (font-size: clamp( 1.5rem , 1.8583815029rem  +  -0.5780346821vw , 1.75rem )) {
   .sum-content__subtitle {
-    font-size: calc(1.75rem + -0.25 * (100vw - 18.75rem) / 43.25);
+    font-size: calc(1.75rem + -0.2352941176 * (100vw - 18.75rem) / 40.7058823529);
   }
 }
 
@@ -704,7 +696,7 @@ h3 {
 
 @supports not (font-size: clamp( 1rem , 0.9705882353rem  +  0.1470588235vw , 1.0625rem )) {
   .button-red {
-    font-size: calc(1rem + 0.0625 * (100vw - 20rem) / 42.5);
+    font-size: calc(1rem + 0.0588235294 * (100vw - 20rem) / 40);
   }
 }
 
@@ -716,7 +708,7 @@ h3 {
 
 @supports not (font-size: clamp( 1.0625rem , 1.375rem  +  -0.625vw , 1.25rem )) {
   .button-red {
-    font-size: calc(1.25rem + -0.1875 * (100vw - 20rem) / 30);
+    font-size: calc(1.25rem + -0.1764705882 * (100vw - 20rem) / 28.2352941176);
   }
 }
 
@@ -858,7 +850,7 @@ h2 {
 
 @supports not (height: clamp( 18.75rem , 15.9090909091rem  +  7.5757575758vw , 25rem )) {
   .item__slide img {
-    height: calc(18.75rem + 6.25 * (100vw - 37.5rem) / 82.5);
+    height: calc(18.75rem + 5.8823529412 * (100vw - 37.5rem) / 77.6470588235);
   }
 }
 
@@ -870,7 +862,7 @@ h2 {
 
 @supports not (height: clamp( 18.75rem , 6.25rem  +  66.6666666667vw , 31.25rem )) {
   .item__slide img {
-    height: calc(18.75rem + 12.5 * (100vw - 18.75rem) / 18.75);
+    height: calc(18.75rem + 11.7647058824 * (100vw - 18.75rem) / 17.6470588235);
   }
 }
 
@@ -1989,12 +1981,6 @@ button.swiper-pagination-bullet {
 }
 
 @media (min-width: 62em) {
-  .sum-content__subtitle {
-    font-size: inherit;
-  }
-}
-
-@media (max-width: 62em) {
   .sum-content__subtitle {
     font-size: inherit;
   }
